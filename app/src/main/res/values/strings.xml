@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mrs. Denna\'s Kids and Students</string>
+    <string-array name="options">
+        <item>Her Actual Children</item>
+        <item>Her 5th Period Class</item>
+        <item>Her 7th Period Class</item>
+    </string-array>
+</resources>
