@@ -36,4 +36,12 @@ public class KidDetailActivity extends AppCompatActivity {
         dob.setText(myKid.getDob());
         likes.setText(myKid.getFavActivity());
     }
+
+    // https://stackoverflow.com/questions/12047770/android-how-to-animate-an-activity-transition-when-the-default-back-button-is
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+    }
 }

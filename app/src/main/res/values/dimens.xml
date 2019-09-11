@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginTop">15dp</dimen>
+    <dimen name="textSzLg">40sp</dimen>
+    <dimen name="textSzReg">20sp</dimen>
+</resources>

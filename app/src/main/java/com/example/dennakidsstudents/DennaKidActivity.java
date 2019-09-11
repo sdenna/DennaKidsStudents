@@ -35,11 +35,22 @@ public class DennaKidActivity extends AppCompatActivity {
                         Intent intent = new Intent(DennaKidActivity.this, KidDetailActivity.class);
                         intent.putExtra(KidDetailActivity.EXTRA_KIDID, (int) id);
                         startActivity(intent);
+
+                        // Transition from Suraj Rao's Mad Lib lab
+                        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
                     }
                 };
 
         // Assign the listener to the list view
         listKids.setOnItemClickListener(itemClickListener);
 
+    }
+
+    // https://stackoverflow.com/questions/12047770/android-how-to-animate-an-activity-transition-when-the-default-back-button-is
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
     }
 }

@@ -8,17 +8,18 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="420dp"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/family"
-        android:layout_gravity="top"/>
+        android:layout_gravity="top"
+        android:src="@drawable/dennafam"
+        android:layout_marginTop="@dimen/marginTop"/>
 
     <ListView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/list_options"
-        android:entries="@array/options"/>
-
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/options"
+        android:layout_marginLeft="10dp"/>
 
 
 </LinearLayout>

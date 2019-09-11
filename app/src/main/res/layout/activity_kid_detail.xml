@@ -5,26 +5,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/colorAccent"
     tools:context=".KidDetailActivity">
 
     <ImageView
         android:layout_width="243dp"
         android:layout_height="324dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/marginTop"
         android:id="@+id/photo"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/textSzLg"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginBottom="@dimen/marginTop"
         android:id="@+id/name"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/textSzReg"
+        android:layout_gravity="center_horizontal"
         android:id="@+id/dob"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/textSzReg"
+        android:layout_gravity="center_horizontal"
         android:id="@+id/likes"/>
 
 
