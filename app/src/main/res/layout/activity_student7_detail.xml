@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/colorAccent2"
-    tools:context=".KidDetailActivity">
+    tools:context=".Student7DetailActivity">
+
 
     <ImageView
         android:layout_width="243dp"
@@ -37,6 +38,7 @@
         android:textSize="@dimen/textSzReg"
         android:layout_gravity="center_horizontal"
         android:id="@+id/likes"/>
+
 
 
 </LinearLayout>

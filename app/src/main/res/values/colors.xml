@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#303F8D</color>
+    <!-- Color codes for blue mode -->
+    <color name="colorPrimary">#7D52C7</color>
     <color name="colorPrimaryDark">#4D2C86</color>
     <color name="colorAccent">#8B99E4</color>
     <color name="colorWhite">#FFFFFF</color>
+
+    <!-- Color codes for pink mode -->
+    <color name="colorPrimary2">#DF5886</color>
+    <color name="colorPrimaryDark2">#702B43</color>
+    <color name="colorAccent2">#EEAEC4</color>
+    <color name="colorGrey">#666B6B</color>
 </resources>

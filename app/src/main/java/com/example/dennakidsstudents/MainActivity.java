@@ -28,6 +28,20 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(intent);
                     overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
                 }
+
+                else if (position == 1) {
+                    Intent intent = new Intent(MainActivity.this, Period5Activity.class);
+
+                    startActivity(intent);
+                    overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+                }
+
+                else if (position == 2) {
+                    Intent intent = new Intent(MainActivity.this, Period7Activity.class);
+
+                    startActivity(intent);
+                    overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+                }
             }
         };
 
