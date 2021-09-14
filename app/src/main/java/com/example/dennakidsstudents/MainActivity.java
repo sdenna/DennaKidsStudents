@@ -10,6 +10,7 @@ import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static final String EXTRA_PERIOD = "periodNumber";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,15 +31,15 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 else if (position == 1) {
-                    Intent intent = new Intent(MainActivity.this, Period5Activity.class);
-
+                    Intent intent = new Intent(MainActivity.this, ClassPeriodActivity.class);
+                    intent.putExtra(EXTRA_PERIOD, "5");
                     startActivity(intent);
                     overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
                 }
 
                 else if (position == 2) {
-                    Intent intent = new Intent(MainActivity.this, Period7Activity.class);
-
+                    Intent intent = new Intent(MainActivity.this, ClassPeriodActivity.class);
+                    intent.putExtra(EXTRA_PERIOD, "7");
                     startActivity(intent);
                     overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
                 }
